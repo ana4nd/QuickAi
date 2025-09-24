@@ -14,10 +14,6 @@ const Dashboard = () => {
 
   const [loading, setLoading] = useState(true);
 
-  const {user} = useUser();
-
-  console.log(user);
-
   const { getToken } = useAuth();
 
   const getDashboardData = async () => {
